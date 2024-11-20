@@ -10,10 +10,10 @@ function MovieDetails() {
 
 
   const { pathname } = useLocation();
-  console.log(pathname);
+  
   const navigate = useNavigate();
   const { info } = useSelector((state) => state.movie);
-  console.log(info);
+  
   const { id } = useParams();
   const dispatch = useDispatch();
   useEffect(() => {

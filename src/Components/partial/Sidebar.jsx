@@ -8,7 +8,7 @@ function Sidebar() {
    
 
   return (
-    <div className='w-[20%] h-screen border-r-2 border-zinc-200 p-10'>
+    <div className='w-[20%] h-full border-r-2 border-zinc-200 p-10'>
         
             <h1 className='text-2xl text-white font-bold'>
             <i className="text-[#6556cd] ri-tv-fill mr-2 "></i>

@@ -13,10 +13,10 @@ import HorizentolCard from "./partial/HorizentolCard";
 
 function TvDetails() {
   const { pathname } = useLocation();
-  console.log(pathname);
+  
   const navigate = useNavigate();
   const { info } = useSelector((state) => state.tv);
-  console.log(info);
+  
   const { id } = useParams();
   const dispatch = useDispatch();
   useEffect(() => {

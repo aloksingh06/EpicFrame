@@ -33,7 +33,7 @@ function Home() {
       console.error(error);
     }
   };
-console.log(trend)
+
 
   useEffect(() => {
     !wallpaper && getWallpaper();

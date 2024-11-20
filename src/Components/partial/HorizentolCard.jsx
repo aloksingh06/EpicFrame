@@ -6,7 +6,7 @@ import noimage from "/noimage.jpg"
 
 function HorizentolCard({ data })
 {
-  console.log(data)
+  
   
   return (
     <div className="w-full  p-5">
