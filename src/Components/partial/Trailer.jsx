@@ -3,6 +3,7 @@ import ReactPlayer from 'react-player'
 import { useSelector } from 'react-redux'
 import { useLocation, useNavigate } from 'react-router-dom'
 import Notfound from './Notfound'
+import noimage from "/noimage.jpg";
 
 function Trailer() {
     const navigate = useNavigate()
