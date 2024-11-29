@@ -13,7 +13,7 @@ function Sidebar() {
         
             <h1 className='text-2xl text-white font-bold'>
             <i className="text-[#6556cd] ri-tv-fill mr-2 "></i>
-                <span>CINE VERSE</span>
+                <span>MOVIE HUB</span>
             </h1>
         <nav className='flex flex-col text-lg gap-2 text-zinc-300'>
             <h1 className='text-xl text-white font-semibold mt-10 mb-5'>New Feeds</h1>
