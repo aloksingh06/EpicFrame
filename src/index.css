@@ -4,6 +4,19 @@
 
 /* primery color #1f1E24
 #6556cd  */
+body {
+  font-family: 'Inter', sans-serif; /* Apply default font globally */
+  
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Sedan+SC&display=swap'); */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
 
 ::-webkit-scrollbar{
     width: 5px;
