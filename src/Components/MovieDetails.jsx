@@ -8,12 +8,13 @@ import HorizentolCard from "./partial/HorizentolCard";
 function MovieDetails() {
   document.title = "CineVerse | MovieDetails"
 
-
   const { pathname } = useLocation();
   
   const navigate = useNavigate();
   const { info } = useSelector((state) => state.movie);
   
+
+
   const { id } = useParams();
   const dispatch = useDispatch();
   useEffect(() => {

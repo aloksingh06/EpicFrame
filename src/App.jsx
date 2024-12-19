@@ -28,7 +28,9 @@ function App() {
         <Route path="/movie/details/:id" element={<MovieDetails />}>
           <Route path="trailer" element={<Trailer />} />
         </Route>
-
+        <Route path="/movies/details/:id" element={<MovieDetails />}>
+          <Route path="trailer" element={<Trailer />} />
+        </Route>
         {/* TV Routes with Nested Trailer */}
         <Route path="/tv" element={<Tv />} />
         <Route path="/tv/details/:id" element={<TvDetails />}>
