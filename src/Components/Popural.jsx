@@ -12,12 +12,13 @@ function Popural() {
   const [category, setcategory] = useState("movie");
   const [popular, setpopular] = useState([]);
   const [page, setpage] = useState(1);
-  document.title = "CineVerse | Popular"
+  const [duration, setduration] = useState("day");
+  document.title = "Movie Hub | Popular"
 
 
   const getPopular = async () => {
     try {
-      const { data } = await axios.get(`${category}/popular?page=${page}`);
+      const { data } = await axios.get(`/trending/${category}/${duration}?page=${page}`);
       if (data.results.length > 0) {
         setpopular((prev) => [...prev, ...data.results]);
         setpage(page + 1);
@@ -27,7 +28,7 @@ function Popural() {
       console.log(error);
     }
   };
-
+console.log(popular)
   const refreshHandler = () => {
     if (popular.length === 0) {
       getPopular();
@@ -37,7 +38,6 @@ function Popural() {
       getPopular();
     }
   };
-
   useEffect(() => {
     refreshHandler();
   }, [category]);

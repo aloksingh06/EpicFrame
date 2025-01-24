@@ -12,7 +12,7 @@ function Tv() {
     const [page, setpage] = useState(1)
     const navigate = useNavigate()
   console.log(category)
-    document.title = "Movies"
+    document.title = "Movie Hub | Tv "
   
    const GetMovie = async ()=>{
      try {

@@ -12,7 +12,7 @@ function People() {
     const [page, setpage] = useState(1)
     const navigate = useNavigate()
   
-    document.title = "CineVerse | People"
+    document.title = "Movie Hub  | People"
   
    const GetMovie = async ()=>{
      try {

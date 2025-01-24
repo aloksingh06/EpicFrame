@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import LoadingSpinner from "./partial/Loader";
 import HorizentolCard from "./partial/HorizentolCard";
-
+document.title = "Movie Hub | Tv | details"
 function TvDetails() {
   const { pathname } = useLocation();
   

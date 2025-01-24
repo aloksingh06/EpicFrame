@@ -13,7 +13,7 @@ function Trending() {
   const [category, setcategory] = useState("all");
   const [trending, settrending] = useState([]);
   const [page, setpage] = useState(1)
-  document.title = "CineVerse | Trending"
+  document.title = "Movie Hub | Trending"
   
 
 

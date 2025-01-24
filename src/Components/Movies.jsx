@@ -13,7 +13,7 @@ function Movies() {
   const [page, setpage] = useState(1)
   const navigate = useNavigate()
 
-  document.title = "CineVerse | Movies"
+  document.title = "Movie Hub  | Movies"
 
  const GetMovie =async ()=>{
    try {

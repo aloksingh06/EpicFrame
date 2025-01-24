@@ -30,7 +30,7 @@ function Topnav() {
         value={query}
         className="w-[40%] mx-10 border-none outline-none text-lg text-white bg-transparent"
         type="text"
-        placeholder="Search anythink"
+        placeholder="Search anything"
       />
       {query.length > 0 && (
         <i

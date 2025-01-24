@@ -13,7 +13,7 @@ import HorizentolCard from "./partial/HorizentolCard";
 import Drop from "./partial/Drop";
 
 function PersonDetails() {
-  document.title = "CineVerse | PersonDetails"
+  document.title = "Movie Hub  | PersonDetails"
 
   const { pathname } = useLocation();
   console.log(pathname);

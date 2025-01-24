@@ -6,7 +6,7 @@ import Loader from "./partial/Loader";
 import HorizentolCard from "./partial/HorizentolCard";
 
 function MovieDetails() {
-  document.title = "CineVerse | MovieDetails"
+  document.title = "Movie Hub | MovieDetails"
 
   const { pathname } = useLocation();
   

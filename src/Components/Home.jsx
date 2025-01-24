@@ -8,7 +8,7 @@ import Drop from "./partial/Drop";
 import Loader from "./partial/Loader";
 
 function Home() {
-  document.title = "CineVerse | Homepage";
+  document.title = "Movie Hub | Homepage";
 
   const [wallpaper, setWallpaper] = useState(null);
   const [trend, setTrend] = useState(null);
